@@ -1,22 +1,19 @@
-# mi-repo-prueba-v2
+# mi-repo-prueba-v3
 
-Repositorio de prueba para el proyecto **test-agent-code**. Este proyecto se utiliza como entorno de pruebas para validar flujos de trabajo automatizados con agentes de código.
+Repositorio de prueba creado con fines de desarrollo y experimentación.
 
 ## Descripción
 
-Este repositorio sirve como sandbox para experimentar con:
+Este proyecto sirve como entorno de pruebas para validar flujos de trabajo, configuraciones y prácticas de desarrollo de software.
 
-- Integración de agentes de software autónomos.
-- Automatización de tareas de desarrollo (commits, branches, pull requests).
-- Validación de flujos CI/CD.
+## Estructura del proyecto
 
-## Comenzar
-
-```bash
-git clone https://github.com/fragosoa/test-agent-code.git
-cd test-agent-code
+```
+mi-repo-prueba-v3/
+├── README.md
+└── .gitkeep
 ```
 
 ## Licencia
 
-Este proyecto es de uso interno para pruebas.
+Este proyecto es de uso interno y con fines de prueba.
