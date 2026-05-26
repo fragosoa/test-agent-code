@@ -1,17 +1,65 @@
-# mi-repo-prueba-v3
+# Student Management API
 
-Repositorio de prueba creado con fines de desarrollo y experimentación.
+API REST construida con **FastAPI** para gestión de estudiantes. Sistema CRUD básico con almacenamiento en memoria.
 
-## Descripción
+## Requisitos
 
-Este proyecto sirve como entorno de pruebas para validar flujos de trabajo, configuraciones y prácticas de desarrollo de software.
+- Python 3.12+
 
-## Estructura del proyecto
+## Instalación
+
+```bash
+# Instalar dependencias de producción
+pip install -r requirements.txt
+
+# Instalar dependencias de desarrollo (incluye pytest)
+pip install -r requirements-dev.txt
+```
+
+## Ejecución
+
+```bash
+uvicorn app.main:app --reload --port 8000
+```
+
+La documentación interactiva estará disponible en:
+- **Swagger UI:** http://localhost:8000/docs
+- **ReDoc:** http://localhost:8000/redoc
+
+## Endpoints
+
+| Método   | Ruta                | Descripción                |
+|----------|---------------------|----------------------------|
+| `GET`    | `/health`           | Health check               |
+| `GET`    | `/hello`            | Hello World                |
+| `POST`   | `/students`         | Crear estudiante           |
+| `GET`    | `/students`         | Listar todos               |
+| `GET`    | `/students/{id}`    | Obtener por ID             |
+| `PUT`    | `/students/{id}`    | Actualizar estudiante      |
+| `DELETE` | `/students/{id}`    | Eliminar estudiante        |
+
+## Tests
+
+```bash
+python -m pytest tests/ -v
+```
+
+## Estructura del Proyecto
 
 ```
-mi-repo-prueba-v3/
-├── README.md
-└── .gitkeep
+app/
+├── main.py                 # Entry point FastAPI
+├── models/
+│   └── student.py          # Schemas Pydantic
+├── routers/
+│   ├── health.py           # Health check y hello world
+│   └── students.py         # CRUD de estudiantes
+└── storage/
+    └── memory_store.py     # Almacenamiento en memoria
+
+tests/
+├── test_health.py
+└── test_students.py
 ```
 
 ## Licencia
