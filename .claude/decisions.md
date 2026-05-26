@@ -7,7 +7,7 @@
 
 ## 001 - Framework: FastAPI
 
-**Fecha:** 2025-01-01
+**Fecha:** 2026-05-26
 **Estado:** Aceptada
 
 **Contexto:** Se necesita un framework web para Python que soporte una API REST.
@@ -25,7 +25,7 @@
 
 ## 002 - Almacenamiento en memoria (diccionario Python)
 
-**Fecha:** 2025-01-01
+**Fecha:** 2026-05-26
 **Estado:** Aceptada (temporal)
 
 **Contexto:** Se necesita un mecanismo de almacenamiento para el CRUD de estudiantes. El requerimiento indica "storage local".
@@ -51,7 +51,7 @@
 
 ## 003 - UUID como identificador de estudiantes
 
-**Fecha:** 2025-01-01
+**Fecha:** 2026-05-26
 **Estado:** Aceptada
 
 **Contexto:** Se necesita un mecanismo para generar IDs únicos para estudiantes.
@@ -72,7 +72,7 @@
 
 ## 004 - Separación en routers por dominio
 
-**Fecha:** 2025-01-01
+**Fecha:** 2026-05-26
 **Estado:** Aceptada
 
 **Contexto:** Definir cómo organizar los endpoints.
@@ -90,7 +90,7 @@
 
 ## 005 - Schemas Pydantic separados por operación
 
-**Fecha:** 2025-01-01
+**Fecha:** 2026-05-26
 **Estado:** Aceptada
 
 **Contexto:** Cómo definir los modelos de datos para request/response.

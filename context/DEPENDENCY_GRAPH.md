@@ -1,6 +1,6 @@
 # Dependency Graph
 
-> Generado automáticamente por análisis estático de imports · 2025-01-01 UTC
+> Generado automáticamente por análisis estático de imports · 2026-05-26 UTC
 > Una arista A → B significa 'A importa B'.
 > Actualizado automáticamente en cada PR del sistema de agentes.
 
